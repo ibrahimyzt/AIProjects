@@ -17,4 +17,4 @@ dizin = os.path.dirname(os.path.abspath(image))
 yeni_dosya = os.path.join(dizin, "image_kopya.png")
 
 cv2.imwrite(yeni_dosya, img)
-print(f"Fotoğraf kaydedildi: {yeni_dosya}")
+print(f"Fotoğraf kaydedilmiştir: {yeni_dosya}")
