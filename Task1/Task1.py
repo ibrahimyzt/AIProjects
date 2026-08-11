@@ -1,5 +1,5 @@
 import cv2
-import os
+
 
 # Açılacak fotoğraf
 image = "image.jpg"
@@ -12,9 +12,5 @@ cv2.imshow("Kars Kalesi", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-# Aynı dizine farklı isimle kaydet
-dizin = os.path.dirname(os.path.abspath(image))
-yeni_dosya = os.path.join(dizin, "image_kopya.png")
-
-cv2.imwrite(yeni_dosya, img)
-print(f"Fotoğraf kaydedilmiştir: {yeni_dosya}")
+cv2.imwrite("image_kopya.png", img)
+print("Fotoğraf kaydedilmiştir")
