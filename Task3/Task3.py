@@ -7,11 +7,9 @@ image = "image.jpg"
 img = cv2.imread(image)
 
 # --- Yeniden boyutlandırma ---
-yeni_genislik = 400
-yeni_yukseklik = 300
-boyutlandirilmis_img = cv2.resize(img, (yeni_genislik, yeni_yukseklik))
+boyutlandirilmis_img = cv2.resize(img, (400, 300))
 
-# --- Belirli bir alanı kırpma (crop) ---
+# Belirli bir alanı kırpma (crop)
 # Format: img[y_baslangic:y_bitis, x_baslangic:x_bitis]
 kirpilmis_img = boyutlandirilmis_img[50:250, 100:350]
 
