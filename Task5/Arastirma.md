@@ -4,8 +4,10 @@
 
 Yüz ve plaka bulanıklaştırma, görüntü işleme dünyasında en yaygın kullanım alanlarından biridir.
 
-- **Yüz bulanıklaştırma:** Kameralarla toplanan görüntülerde, tespit edilen yüz bölgesi (ROI) kesilip Gaussian blur veya pikselleştirme (pixelation) uygulanarak kişinin kimliği tanınmaz hale getirilir. Bu yöntem; güvenlik kameraları, sokak görüntüleme sistemleri (örneğin Google Street View) ve haber/belgesel çekimlerinde yaygın kullanılır.
+- **Yüz bulanıklaştırma:** Kameralarla toplanan görüntülerde, tespit edilen yüz bölgesi (ROI : Region of interest) kesilip Gaussian blur veya pikselleştirme (pixelation) uygulanarak kişinin kimliği tanınmaz hale getirilir. Bu yöntem; güvenlik kameraları, sokak görüntüleme sistemleri (örneğin Google Street View) ve haber/belgesel çekimlerinde yaygın kullanılır.
+
 - **Plaka bulanıklaştırma:** Araç plakalarının gizliliğini korumak için benzer teknik uygulanır — özellikle otonom araç veri setlerinde ve trafik kameralarında.
+
 - **Akıllı gözetim (surveillance) sistemleri:** Güncel araştırmalarda, YOLO tabanlı yüz tespiti ile eşleştirilmiş "seçici anonimleştirme" yöntemleri geliştiriliyor: hedef olmayan kişilerin yüzleri otomatik olarak bulanıklaştırılırken, hedef kişi net bırakılabiliyor.
 
 > Not: Akademik çalışmalar, yüksek kaliteli derin öğrenme modelleriyle Gaussian blur uygulanmış yüzlerin bazı durumlarda geri geri "deblur" edilerek yeniden tanınabildiğini gösteriyor. Bu yüzden kritik gizlilik uygulamalarında sadece blur değil, pikselleştirme veya yapay zeka tabanlı "inpainting" gibi daha güçlü yöntemler de tercih edilebiliyor.
