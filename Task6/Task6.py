@@ -27,19 +27,16 @@ mask_clean = cv2.morphologyEx(mask_clean, cv2.MORPH_OPEN, kernel)  # küçük g�
 contours, _ = cv2.findContours(
     mask_clean, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
 )
-largest = max(contours, key=cv2.contourArea)
+largest = max(contours, key=cv2.contourArea) # Burada large contour u bulmamızın sebebi en belirgin tek bir nesneyi ortaya çıkarmak
 print(f"Bulunan kontur sayisi: {len(contours)}")
 print(f"En büyük konturun alani: {cv2.contourArea(largest):.0f} piksel")
 
 # Konturu orijinal görüntü üzerine kırmızı çizgiyle çiz
-img_contour = img.copy()
-cv2.drawContours(img_contour, [largest], -1, (0, 0, 255), 3)
+result = img.copy()
+cv2.drawContours(result, [largest], -1, (0, 0, 255), 3) # ikinci parametre dizi olmalı o nedenle largest [] içine alındı
 
-# 6. Yaprağı arkaplandan izole et
-result = cv2.bitwise_and(img, img, mask=mask_clean)
-
-# 7. Sonucu kaydet
-cv2.imwrite('isolated.jpg', result)
+# 6. Sonucu kaydet
+cv2.imwrite('result.jpg', result)
 
 cv2.imshow("Result", result)
 cv2.imshow("Normal", img)
