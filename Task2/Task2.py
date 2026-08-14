@@ -1,6 +1,5 @@
 import cv2
 
-
 # Kullanılacak fotoğraf
 image = "image.jpg"
 
