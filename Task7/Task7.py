@@ -1,6 +1,4 @@
 
-# OpenCV kütüphanesindeki Watershed fonksiyonunu kullanarak segmentasyon yapın.
-
 import cv2
 import numpy as np
 
