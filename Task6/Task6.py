@@ -1,6 +1,4 @@
 
-# Thresholding nedir, hangi alanlarda kullanılır araştırın ve bir yaprak resmi üzerinde bu işlemi gerçekleştirin.
-
 import cv2
 import numpy as np
 
