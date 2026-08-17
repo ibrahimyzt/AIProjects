@@ -1,5 +1,4 @@
 
-# Orijinal resim üzerinde 3 adet morfolojik işlem gerçekleştirin.
 
 import cv2
 import numpy as np
