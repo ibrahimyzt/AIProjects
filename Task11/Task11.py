@@ -1,6 +1,4 @@
 
-# OpenCV’nin flip metodunu deneyin ve ne işe yaradığını açıklayın.
-
 import cv2
 
 img = cv2.imread('image.jpg')
