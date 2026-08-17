@@ -1,6 +1,4 @@
 
-# Griye dönüştürülmüş resim ile orijinal resim arasındaki dizi (array) farklılıklarını inceleyin.
-
 import cv2
 import numpy as np
 
