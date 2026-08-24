@@ -1,5 +1,4 @@
 
-# OpenCV kullanarak bilgisayarınızdaki kameraya erişin ve görüntüyü bir pencere üzerinde gösterin.
 
 import cv2
 
@@ -15,8 +14,9 @@ while True:
     if not ret:
         print("Görüntü alınamadı!")
         break
-
-    cv2.imshow('Kamera Goruntusu', frame)
+    
+    frame_ = cv2.flip(frame, 1)
+    cv2.imshow('Kamera Goruntusu', frame_)
 
     # 'q' tuşuna basılınca çık
     

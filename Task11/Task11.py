@@ -1,5 +1,4 @@
 
-# OpenCV’nin flip metodunu deneyin ve ne işe yaradığını açıklayın.
 
 import cv2
 

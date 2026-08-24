@@ -5,7 +5,7 @@ image = "image.jpg"
 
 # Fotoğrafı oku
 img = cv2.imread(image)
-
+print("",img.shape)
 # --- Yeniden boyutlandırma ---
 boyutlandirilmis_img = cv2.resize(img, (400, 300))
 
