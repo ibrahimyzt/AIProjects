@@ -1,14 +1,4 @@
 
-"""
-CNN Mimarisi - Keras/TensorFlow ile Pratik Uygulama
-
-Bu script, Keras kullanarak gercek bir CNN modelini tanimlar, derler,
-sentetik (rastgele uretilmis) bir goruntu veri seti uzerinde egitir ve
-degerlendirir.
-
-Senaryo: 32x32 RGB goruntuleri "daire iceren" ve "kare iceren" olarak
-2 sinifa ayiran bir CNN.
-"""
 
 import numpy as np 
 import tensorflow as tf 
