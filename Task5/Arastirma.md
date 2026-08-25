@@ -26,12 +26,3 @@ Yüz ve plaka bulanıklaştırma, görüntü işleme dünyasında en yaygın kul
 
 - **Fotoğraf/video düzenleme uygulamaları:** Instagram, Photoshop, PicsArt gibi platformlarda arka plan bulanıklaştırma (bokeh efekti), odak noktasını öne çıkarmak için kullanılır.
 - **Hassas/rahatsız edici içerik gizleme:** Sosyal medya ve haber platformlarında grafik/şiddet içeren görüntüler otomatik olarak bulanıklaştırılarak kullanıcıya "içeriği görmek ister misiniz?" seçeneği sunulur.
-
-## Kaynaklar
-
-- PyImageSearch — *Blur and anonymize faces with OpenCV and Python*
-- GeeksforGeeks — *Blur and anonymize faces with OpenCV and Python*
-- Celantur — *How to Build an Algorithm for Face and License Plate Blurring Using OpenCV and Python*
-- IEEE Xplore — *Selective and Enhanced Privacy-Preserving Surveillance: Real-Time Face Anonymization Using Gaussian Blur and Pixelation*
-- arXiv — *Restoring Gaussian Blurred Face Images for Deanonymization Attacks*
-- arXiv — *Does Image Anonymization Impact Computer Vision Training?*

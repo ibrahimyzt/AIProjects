@@ -2,9 +2,7 @@
 
 ## 1. Neyi Yapmaya Çalışıyoruz?
 
-Şu ana kadar `train.py` ile eğittiğin model, PyTorch'un kendi formatı olan **`.pt`** (best.pt gibi) dosyası olarak kayıtlı. Bu görevde bu modeli, **`.onnx`** adı verilen, farklı programlar/platformlar arasında taşınabilir bir formata dönüştüreceksin.
-
-Bunu şöyle düşün: `.pt` dosyası, sadece PyTorch'un "anladığı" bir dil gibidir — bir nevi Word belgesi (`.docx`) gibi, sadece Microsoft Word'de tam uyumlu çalışır. `.onnx` ise PDF gibidir — hangi programda açarsan aç (Python, C++, mobil uygulama, tarayıcı), aynı şekilde çalışır.
+`.pt` dosyası, sadece PyTorch'un "anladığı" bir dil gibidir — bir nevi Word belgesi (`.docx`) gibi, sadece Microsoft Word'de tam uyumlu çalışır. `.onnx` ise PDF gibidir — hangi programda açarsan aç (Python, C++, mobil uygulama, tarayıcı), aynı şekilde çalışır.
 
 ## 2. Neden Böyle Bir Dönüşüme İhtiyaç Duyarız?
 
