@@ -1,0 +1,14 @@
+path: /home/ibrahim/Documents/PythonProjects/AIProjects/Task20/my-dataset  # veri setinin ana klasörü
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['FIL', 'KEDI', 'KOPEK']
+
+roboflow:
+  workspace: brahims-workspace-nbc2u
+  project: animals_object_detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brahims-workspace-nbc2u/animals_object_detection/dataset/1
