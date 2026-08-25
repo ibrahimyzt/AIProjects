@@ -15,8 +15,6 @@
 
 ## 3. Dönüştürme Komutu
 
-YOLOv5 klasöründeyken (`aiprojects-gpu` ortamı aktifken) terminalde şunu çalıştır:
-
 ```bash
 python3 export.py --weights runs/train/exp16/weights/best.pt --include onnx --img 640 --device 0
 ```
